@@ -36,9 +36,6 @@ export default class Sidebar extends Component {
         <TreeMenu data={treeData} />
         
         <section className="colorlib-about" data-section="about">
-        
-
-
         </section>
       </div>
     )

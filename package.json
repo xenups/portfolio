@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "elemental": "^0.6.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-metismenu": "^1.4.0",
+    "react-persian-calendar-date-picker": "^1.1.5",
+    "react-scripts": "3.1.1",
+    "react-simple-tree-menu": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

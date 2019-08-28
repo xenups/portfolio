@@ -9,6 +9,7 @@ export default class ContactUs extends Component {
               <div >
                 <h4>You can contact me</h4>
                 <div className="item-wrap"><p><span>{resumeData.phoneNumber}</span></p></div> 
+                <div className="item-wrap"><p><span>{resumeData.address}</span></p></div> 
               </div>
             {/* </aside> */}
           </div>

@@ -23,9 +23,9 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"amir lesani  ",
-    "address":"Iran",
-    "website":"https://xenups.github.io",
+    "aboutme":"I am both driven and self-motivated, and I am constantly experimenting with new technologies and techniques. I am very passionate about Web Development",
+    "address":"Iran , Rasht",
+    "website":"https://xenups.github.io/portfolio/",
     "education":[
       {
         "UniversityName":"Qazvin Azad University",
@@ -53,31 +53,31 @@ let resumeData = {
         "skillname":"Django"
       },
       {
-        "skillname":"C#"
+        "skillname":"Csharp"
       },
       {
-        "skillname":"C++"
+        "skillname":"Cplusplus"
       },
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
+        "name":"Django",
+        "description":"Django projects",
         "imgurl":"images/portfolio/phone.jpg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
+        "name":"Oscar",
+        "description":"E-commerce base on Django",
         "imgurl":"images/portfolio/project.jpg"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
+        "name":"Robotic Solutions",
+        "description":"ROS Apps",  
         "imgurl":"images/portfolio/project2.jpg"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
+        "name":"Django",
+        "description":"Django API",
         "imgurl":"images/portfolio/phone.jpg"
       }
     ],

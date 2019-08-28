@@ -6,32 +6,27 @@ import './App.css';
 import About from './components/about'
 import Home from './components/home'
 import Sidebar from './components/sidebar'
+import Header from './components/header'
+import Resume from './components/resume'
+import Portfolio from './components/potfolio'
+import ContactUs from './components/concactUS'
+import Footer from './components/footer'
+import resumeData from './resumeData'
+
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <section>
-        <About/>
-        
-        <ul>salame kore khar</ul>
-        </section>
-      
-      </div>
-      <div class="sidenav">
+      {/* <div class="sidenav">
       <Sidebar/>
-      </div>
-      
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Home/>
-        <div id="colorlib-main">        
-        <div id="colorlib-page">
-        <div id="container-wrap">
-        </div>
-      	</div>
-      </div>  
-      </header>
+      </div> */}
+        {/* <Home/> */}
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
     </div>
   );
 }

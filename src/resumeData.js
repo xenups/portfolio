@@ -4,6 +4,7 @@ let resumeData = {
     "role": "Backend Developer",
     "linkedinId":"linkedin.com//in/xenups",
     "phoneNumber":"+989210419379",
+    "email":"xenups@outlook.com",
     "skypeid": "xenups",
     "roleDescription": "who loves to learn new technologies",
     "socialLinks":[
@@ -47,7 +48,7 @@ let resumeData = {
       },
 
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"what i experienced",
     "skills":[
       {
         "skillname":"Django"
